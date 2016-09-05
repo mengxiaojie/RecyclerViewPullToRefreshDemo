@@ -2,7 +2,7 @@
 
 用于recyclerView的下拉刷新和上拉加载
 
-<!--recyclerView全部替换为该自定义的PullAbleRecyclerView-->
+//recyclerView全部替换为该自定义的PullAbleRecyclerView
 
 <com.jingchen.pulltorefresh.PullToRefreshLayout
 
@@ -46,3 +46,7 @@ pullToRefreshLayout.setOnPullListener(this);//设置监听（pullToRefreshLayout
         Toast.makeText(this, "上拉加载", Toast.LENGTH_SHORT).show();
         httpGetMessage(1, 15);httpGetMessage(0, 15);//网络请求的方法
     }
+    
+    
+    
+    注：在jingchen的pulltorefresh上进行的修改
