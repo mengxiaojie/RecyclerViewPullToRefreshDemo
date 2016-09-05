@@ -6,7 +6,8 @@
         android:id="@+id/activity_main_pull_to_refresh"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        <com.jingchen.pulltorefresh.PullAbleRecyclerView  //recyclerView全部替换为该自定义的PullAbleRecyclerView
+        <!--recyclerView全部替换为该自定义的PullAbleRecyclerView-->
+        <com.jingchen.pulltorefresh.PullAbleRecyclerView  
             android:paddingRight="10dp"
             android:paddingLeft="10dp"
             android:id="@+id/activity_main_recycler"
